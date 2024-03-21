@@ -1,0 +1,262 @@
+import samsung from "./assets/samsung.png"
+import iphone from "./assets/iphone.png"
+import oppo from "./assets/oppo.png"
+import xiaomi from "./assets/xiaomi.png"
+import infinix from "./assets/infinix.png"
+import huawei from "./assets/huawei.png"
+import realme from "./assets/realme.png"
+import tecno from "./assets/tecno.png"
+import vivo from "./assets/vivo.png"
+
+export const devices = [
+    {
+        name: "Samsung",
+        logos: [samsung],
+        screens: [
+            { model: "A10 /M10 original", price: [199] },
+            { model: "A10s original", price: [199] },
+            { model: "A12 original", price: [199] },
+            { model: "A32 5G original", price: [220] },
+            { model: "A13 original", price: [220] },
+            { model: "A02 original", price: [199] },
+            { model: "A02s original", price: [199] },
+            { model: "A03s original", price: [199] },
+            { model: "A20 BIG", price: [270,310] },
+            { model: "A30 BIG", price: [270,310] },
+            { model: "A50 BIG", price: [270,310] },
+            { model: "A30s BIG", price: [270,310] },
+            { model: "A20e originl", price: [220] },
+            { model: "A51 BIG", price: [330,360] },
+            { model: "A70 BIG", price: [430,520] },
+            { model: "A71 BIG", price: [380,499] },
+            { model: "J7 pro (Hard) Oled", price: [320,380] },
+            { model: "J7 2016", price: [480] },
+            { model: "J120", price: [320] },
+            { model: "J7 prime original", price: [380] },
+            { model: "J3 pro original", price: [250] },
+            { model: "A20s original", price: [250] },
+            { model: "J4 ( hard ) oled", price: [220] },
+            { model: "J4 plus original", price: [320] },
+            { model: "J6 incell BIG", price: [225] },
+            { model: "J6 plus original", price: [250] },
+            { model: "A40 big", price: [210] },
+            { model: "M20 original", price: [370] },
+            { model: "M30 big", price: [220] },
+            { model: "A31 big", price: [390] },
+            { model: "A32 big", price: [280] },
+            { model: "A11 original", price: [320] },
+        ]
+    },
+    {
+        name: "iPhone",
+        logos: [iphone],
+        screens: [
+            { model: "6G", price: [199] },
+            { model: "6S", price: [199] },
+            { model: "6 plus", price: [199] },
+            { model: "6s plus", price: [199] },
+            { model: "7G", price: [210] },
+            { model: "7 plus", price: [199] },
+            { model: "8G", price: [199] },
+            { model: "8 plus", price: [230] },
+            { model: "SE 2020", price: [199] },
+            { model: "X GX", price: [280, 350] },
+            { model: "X (ZY)", price: [280] },
+            { model: "XR (GX)", price: [280] },
+            { model: "X max (GX)", price: [320] },
+            { model: "11 (GX)", price: [320] },
+            { model: "11 pro (INCELL)", price: [300] },
+            { model: "11 pro (GX)", price: [370] },
+            { model: "XS (ZY)", price: [300] },
+            { model: "11 pro max (Gx)", price: [400] },
+            { model: "X max (ZY)", price: [300] },
+            { model: "12 pro GX", price: [400] },
+            { model: "12 pro (ZY)", price: [450] },
+            { model: "11 pro max (ZY)", price: [500] },
+            { model: "12 pro max (JK)", price: [700] },
+            { model: "12 pro max (GX)", price: [750] }
+        ],
+    },
+    {
+        name: "Oppo",
+        logos: [oppo],
+        screens: [
+            { "model": "A1k original", "price": [195] },
+            { "model": "A5s original", "price": [199] },
+            { "model": "A3s original", "price": [199] },
+            { "model": "A5 2020 original", "price": [199] },
+            { "model": "A9 2020 original", "price": [199] },
+            { "model": "F7 original", "price": [220] },
+            { "model": "F9 original", "price": [220] },
+            { "model": "Fll pro original", "price": [250] },
+            { "model": "A7 original", "price": [199] },
+            { "model": "A12 original", "price": [199] },
+            { "model": "A31 original", "price": [199] },
+            { "model": "Reno 2 F Big", "price": [280, 460] },
+            { "model": "Reno 5 Big", "price": [292] },
+            { "model": "Reno 7 Big", "price": [292] },
+            { "model": "A15 original", "price": [199] },
+            { "model": "A16 original", "price": [220] },
+            { "model": "A16 K original", "price": [230] },
+            { "model": "A53 original", "price": [230] },
+            { "model": "A54 original", "price": [230] },
+            { "model": "A74 Big", "price": [230] },
+            { "model": "A52 original", "price": [230] },
+            { "model": "A92 original", "price": [240] },
+            { "model": "A72 original", "price": [240] },
+            { "model": "A17 original", "price": [240] }
+        ]
+        
+    },
+    {
+        name: "Xiaomi",
+        logos: [xiaomi],
+        screens: [
+            { "model": "(R) 7 original", "price": [210] },
+            { "model": "(R) 9A original", "price": [199] },
+            { "model": "(R) 9C original", "price": [199] },
+            { "model": "(R) 9 original", "price": [210] },
+            { "model": "(R) 9T original", "price": [210] },
+            { "model": "(R) 10 original", "price": [240] },
+            { "model": "(R) 10 A original", "price": [199] },
+            { "model": "(R) IOC original", "price": [220] },
+            { "model": "(R) 8 A original", "price": [210] },
+            { "model": "(R) 8 original", "price": [210] },
+            { "model": "A1 plus original", "price": [220] },
+            { "model": "A2 plus original", "price": [220] },
+            { "model": "Note 7 original", "price": [220] },
+            { "model": "Note 8 original", "price": [220] },
+            { "model": "Note 9 original", "price": [220] },
+            { "model": "Note 9pro original", "price": [220] },
+            { "model": "Note IO pro original", "price": [230] },
+            { "model": "Note 11 Tft", "price": [260, 350] },
+            { "model": "Note IO pro T ft", "price": [270] },
+            { "model": "Note 11 pro Tft", "price": [310] },
+            { "model": "Note 12tft", "price": [310] },
+            { "model": "Mi10t original", "price": [300] },
+            { "model": "Mi 9T Tft", "price": [280] }
+        ]        
+    },
+    {
+        name: "Infinix",
+        logos: [infinix],
+        screens: [
+            { "model": "Infinix Hot 5 Lite", "price": [195] },
+            { "model": "Infinix Hot 8", "price": [199] },
+            { "model": "Infinix Smart 4", "price": [199] },
+            { "model": "Infinix Smart 6", "price": [199] },
+            { "model": "Infinix Hot 9 Play", "price": [220] },
+            { "model": "Infinix Hot 10 Play", "price": [220] },
+            { "model": "Infinix Hot 6", "price": [199] },
+            { "model": "Infinix Hot 6 Pro", "price": [210] },
+            { "model": "Infinix Smart 2", "price": [210] },
+            { "model": "Infinix Hot 7", "price": [220] },
+            { "model": "Infinix Smart 3 Plus", "price": [210] },
+            { "model": "Infinix Hot 12", "price": [250] },
+            { "model": "Infinix Hot 10", "price": [230] },
+            { "model": "Infinix Note 8i", "price": [230] },
+            { "model": "Infinix Smart 7 Plus", "price": [250] },
+            { "model": "Infinix Note 7 Lite", "price": [230] },
+            { "model": "Infinix Hot 9", "price": [220] },
+            { "model": "Infinix Hot 30i", "price": [250] },
+            { "model": "Infinix Hot 4 Pro", "price": [199] },
+            { "model": "Infinix Hot 30", "price": [270] },
+            { "model": "Infinix Note 12", "price": [270] },
+            { "model": "Infinix Smart 6 Plus", "price": [230] }
+        ]        
+    },
+    {
+        name: "Huawei",
+        logos: [huawei],
+        screens: [
+            { "model": "Huawei Y5 2018", "price": [195] },
+            { "model": "Huawei Y6 2019", "price": [195] },
+            { "model": "Huawei Y7 2018", "price": [199] },
+            { "model": "Huawei Y 7 2019", "price": [199] },
+            { "model": "Huawei Y 7 p 2020", "price": [230] },
+            { "model": "Huawei Y 7 (A)", "price": [240] },
+            { "model": "Huawei Y9 2019", "price": [220, 250] },
+            { "model": "Huawei Y9 prime", "price": [220, 250] },
+            { "model": "Huawei Y9 (A)", "price": [250] },
+            { "model": "Huawei Nova 3i", "price": [230] },
+            { "model": "Huawei Nova 7i", "price": [250] },
+            { "model": "Huawei P30 lite", "price": [230] },
+            { "model": "Huawei P40 lite", "price": [250] },
+            { "model": "Huawei Nova 5T", "price": [240] },
+            { "model": "Huawei P20", "price": [240] },
+            { "model": "Huawei P20 lite", "price": [240] },
+            { "model": "Huawei Psmart 2019", "price": [250] },
+            { "model": "Huawei Psmart 2020", "price": [250] },
+            { "model": "Huawei Psmart 2021", "price": [240] },
+            { "model": "Huawei Nova plus", "price": [240] }
+        ],
+    },
+    {
+        name: "Realme",
+        logos: [realme],
+        screens: [
+            { "model": "Realme 6", "price": [250] },
+            { "model": "Realme 7", "price": [250] },
+            { "model": "Realme 8i", "price": [250] },
+            { "model": "Realme C2", "price": [195] },
+            { "model": "Realme C3", "price": [210] },
+            { "model": "Realme C5", "price": [210] },
+            { "model": "Realme C5 pro", "price": [240] },
+            { "model": "Realme Cll", "price": [199] },
+            { "model": "Realme C12", "price": [199] },
+            { "model": "Realme C21y", "price": [220] },
+            { "model": "Realme Cll 2021", "price": [210] },
+            { "model": "Realme C25Y", "price": [230] },
+            { "model": "Realme C53", "price": [250] }
+        ]
+    },
+    {
+        name: "Vivo",
+        logos: [vivo],
+        screens: [
+            { "model": "YIS", "price": [210] },
+            { "model": "Y91", "price": [199] },
+            { "model": "Yll", "price": [210] },
+            { "model": "Y 12", "price": [220] },
+            { "model": "Y 15", "price": [220] },
+            { "model": "Y 19", "price": [230] },
+            { "model": "Y12s", "price": [220] },
+            { "model": "Y 20", "price": [220] },
+            { "model": "Y 21", "price": [230] },
+            { "model": "Y 22", "price": [230] },
+            { "model": "Y33s", "price": [240] }
+        ]        
+    },
+    {
+        name: "Tecno",
+        logos: [tecno],
+        screens: [
+            { "model": "BA2 original", "price": [210] },
+            { "model": "Spark 4 original", "price": [210] },
+            { "model": "Spark 5 original", "price": [230] },
+            { "model": "Spark 6 original", "price": [230] },
+            { "model": "KE5 original", "price": [210] },
+            { "model": "P38 original", "price": [210] },
+            { "model": "S18 original", "price": [230] },
+            { "model": "P36 original", "price": [199] },
+            { "model": "P37 original", "price": [199] },
+            { "model": "Pop 4 original", "price": [210] },
+            { "model": "Pop 5 original", "price": [220] }
+        ]        
+    },
+    {
+        name: "Tablets",
+        logos: "Tablettes",
+        screens: [
+            { "model": "T285", "price": [310] },
+            { "model": "T290", "price": [270] },
+            { "model": "T295", "price": [270] },
+            { "model": "T510", "price": [480] },
+            { "model": "T515", "price": [480] },
+            { "model": "30 pin", "price": [210] },
+            { "model": "T11O", "price": [210] },
+            { "model": "T5", "price": [480] },
+            { "model": "T285", "price": [330] }
+        ]        
+    }
+]
