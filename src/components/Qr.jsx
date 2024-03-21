@@ -1,5 +1,5 @@
 import React from 'react'
-import qr from "../assets/instaqr.png"
+import qr from "../assets/instaqr.webp"
 
 const Qr = () => {
   return (

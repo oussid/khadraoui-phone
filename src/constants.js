@@ -1,12 +1,12 @@
-import samsung from "./assets/samsung.png"
-import iphone from "./assets/iphone.png"
-import oppo from "./assets/oppo.png"
-import xiaomi from "./assets/xiaomi.png"
-import infinix from "./assets/infinix.png"
-import huawei from "./assets/huawei.png"
-import realme from "./assets/realme.png"
-import tecno from "./assets/tecno.png"
-import vivo from "./assets/vivo.png"
+import samsung from "./assets/samsung.webp"
+import iphone from "./assets/iphone.webp"
+import oppo from "./assets/oppo.webp"
+import xiaomi from "./assets/xiaomi.webp"
+import infinix from "./assets/infinix.webp"
+import huawei from "./assets/huawei.webp"
+import realme from "./assets/realme.webp"
+import tecno from "./assets/tecno.webp"
+import vivo from "./assets/vivo.webp"
 
 export const devices = [
     {

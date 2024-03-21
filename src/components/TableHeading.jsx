@@ -1,5 +1,3 @@
-import samsung from "../assets/samsung.png"
-
 const TableHeading = ({logos}) => {
   return (
     <div className="flex flex-row justify-center py-4 gap-2">
